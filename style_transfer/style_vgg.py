@@ -17,8 +17,7 @@ def get_args():
 
 def save_img(generated_img, output_path):
     gen_img = postprocess(generated_img.cpu()).data.numpy()
-    print(output_path[-3:])
-    if output_path[-3:] != "jpg" and output_path != "png":
+    if output_path[-3:] != "jpg" and output_path[-3:] != "png":
         print("type Error")
         return
 
