@@ -13,7 +13,7 @@
 2. **명령어 형식**:
    - 스타일 트랜스퍼를 실행하려면 아래와 같은 명령어를 터미널에서 실행합니다.
    ```bash
-   python <script_name>.py --style_path <스타일_이미지_경로> --content_path <콘텐츠_이미지_경로> --output_path <결과_이미지_경로> --device <장치_옵션>
+   python style_vgg.py --style_path <스타일_이미지_경로> --content_path <콘텐츠_이미지_경로> --output_path <결과_이미지_경로> --device <장치_옵션>
 
 3. ***명령어 예시***:
    ```bash
