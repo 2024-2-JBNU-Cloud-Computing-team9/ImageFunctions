@@ -13,4 +13,3 @@
 2. **명령어 형식**:
    ```bash
    python test.py --content <콘텐츠_이미지_경로> --style <스타일_이미지_경로> --vgg models/vgg_normalised.pth --decoder models/decoder.pth --alpha <알파값>
-   ```
