@@ -21,7 +21,7 @@
 
 ## 2. Adain을 이용한 스타일 트랜스퍼
 
-**출처**: [www.naver.com](https://www.naver.com)
+**출처**: [AdaIn_github](https://github.com/naoto0804/pytorch-AdaIN)
 
 ### 사용법
 
