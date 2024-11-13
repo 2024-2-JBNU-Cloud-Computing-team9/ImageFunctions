@@ -26,6 +26,16 @@
 ### 사용법
 
 1. **필수 파일 준비**: Adain 스타일 트랜스퍼를 사용하기 위해 `vgg_normalised.pth`와 `decoder.pth` 또는 `decoder_iter_160000.pth.tar` 파일이 필요합니다. 이 파일들은 각각 VGG 네트워크와 디코더의 사전 학습된 가중치입니다.
+   /
+├── models/
+│   ├── vgg.pth
+│   └── decoder.pth
+├── inputs/
+│   ├── contents/
+│   │   └── <콘텐츠_이미지_파일들>
+│   └── styles/
+│       └── <스타일_이미지_파일들>
+
    
 2. **명령어 형식**:
    ```bash
